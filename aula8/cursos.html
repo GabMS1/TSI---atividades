@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cursos - IF Goiano Morrinhos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="tema.js"></script>
+</head>
+<body class="tema-padrao">
+
+    <header>
+        <h1>IF Goiano - Campus Morrinhos</h1>
+        <p>Nossos Cursos</p>
+        <label for="seletor-tema"><strong>Testar Temas Especiais: </strong></label>
+        <select id="seletor-tema" onchange="mudarTemaManual(this.value)">
+            <option value="tema-padrao">Padrão (Verde)</option>
+            <option value="tema-julho">Julho (Azul)</option>
+            <option value="tema-outubro">Outubro (Rosa)</option>
+            <option value="tema-novembro">Novembro (Azul Especial)</option>
+            <option value="tema-dezembro">Dezembro (Vermelho)</option>
+        </select>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="cursos.html">Cursos</a>
+        <a href="sobre.html">Sobre o Campus</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="extensao.html">Extensão</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <main>
+        <h2>Cursos Superiores</h2>
+        <ul>
+            <li><strong>Sistemas de Informação:</strong> Formação de profissionais analíticos focados no desenvolvimento de software e análise de dados.</li>
+            <li><strong>Agronomia:</strong> Aliando tecnologia e práticas agrícolas sustentáveis.</li>
+            <li><strong>Ciência da Computação:</strong> Foco em algoritmos, inteligência artificial e infraestrutura de TI.</li>
+        </ul>
+
+        <h2>Cursos Técnicos</h2>
+        <ul>
+            <li>Técnico em Informática Integrado ao Ensino Médio</li>
+            <li>Técnico em Agropecuária</li>
+        </ul>
+    </main>
+
+</body>
+</html>

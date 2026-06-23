@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Notícias - IF Goiano</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="tema.js"></script>
+</head>
+<body class="tema-padrao">
+
+    <header>
+        <h1>IF Goiano - Campus Morrinhos</h1>
+        <p>Fique por dentro das novidades</p>
+        <label for="seletor-tema"><strong>Testar Temas Especiais: </strong></label>
+        <select id="seletor-tema" onchange="mudarTemaManual(this.value)">
+            <option value="tema-padrao">Padrão (Verde)</option>
+            <option value="tema-julho">Julho (Azul)</option>
+            <option value="tema-outubro">Outubro (Rosa)</option>
+            <option value="tema-novembro">Novembro (Azul Especial)</option>
+            <option value="tema-dezembro">Dezembro (Vermelho)</option>
+        </select>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="cursos.html">Cursos</a>
+        <a href="sobre.html">Sobre o Campus</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="extensao.html">Extensão</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <main>
+        <h2>Últimas Notícias</h2>
+        
+        <h3>Semana de Tecnologia 2026</h3>
+        <p>Estão abertas as inscrições para a Semana de Tecnologia do Campus Morrinhos. O evento contará com palestras, minicursos de programação e campeonatos de robótica.</p>
+        <hr>
+
+        <h3>Processo Seletivo Aberto</h3>
+        <p>O IF Goiano informa que o edital para os cursos técnicos e superiores já está disponível. As provas ocorrerão no próximo mês. Não perca os prazos!</p>
+        <hr>
+
+        <h3>Campus recebe novos computadores</h3>
+        <p>Os laboratórios de Sistemas de Informação e Ciência da Computação foram atualizados com máquinas de última geração para melhor atender às disciplinas de Inteligência Artificial.</p>
+    </main>
+
+</body>
+</html>
