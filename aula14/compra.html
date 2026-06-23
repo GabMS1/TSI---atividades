@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar Ingresso - CopaTickets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>CopaTickets</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="compra.html">Comprar Ingressos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Formulário de Compra</h2>
+        <p>Preencha os dados abaixo para reservar seus ingressos.</p>
+
+        <form action="#" method="POST">
+            <div>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+
+            <div>
+                <label for="email">E-mail (para receber o e-ticket):</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            </div>
+
+            <div>
+                <label for="jogo">Selecione o Jogo:</label>
+                <select id="jogo" name="jogo" required>
+                    <option value="">-- Escolha uma partida --</option>
+                    <option value="bra_arg">Brasil vs Argentina (Final)</option>
+                    <option value="fra_ale">França vs Alemanha (Semi-final)</option>
+                    <option value="ing_esp">Inglaterra vs Espanha (Quartas)</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="quantidade">Quantidade de Ingressos:</label>
+                <input type="number" id="quantidade" name="quantidade" min="1" max="4" value="1" required>
+            </div>
+
+            <div>
+                <label>Categoria do Assento:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="categoria" value="cat1" required> Categoria 1 (Premium)</label>
+                    <label><input type="radio" name="categoria" value="cat2"> Categoria 2 (Lateral)</label>
+                    <label><input type="radio" name="categoria" value="cat3"> Categoria 3 (Atrás do Gol)</label>
+                </div>
+            </div>
+
+            <button type="submit">Finalizar Compra</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CopaTickets - Todos os direitos reservados para a venda oficial.</p>
+    </footer>
+
+</body>
+</html>

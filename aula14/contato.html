@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - CopaTickets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>CopaTickets</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="compra.html">Comprar Ingressos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Fale Conosco</h2>
+        <p>Teve algum problema com a compra ou precisa de informações sobre acessibilidade nos estádios? Envie uma mensagem!</p>
+
+        <form action="#" method="POST">
+            <div>
+                <label for="nome-contato">Nome:</label>
+                <input type="text" id="nome-contato" name="nome-contato" placeholder="Como devemos te chamar?" required>
+            </div>
+
+            <div>
+                <label for="email-contato">E-mail:</label>
+                <input type="email" id="email-contato" name="email-contato" placeholder="Para onde enviaremos a resposta?" required>
+            </div>
+
+            <div>
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto" required>
+                    <option value="">-- Selecione o assunto --</option>
+                    <option value="duvida">Dúvida sobre ingressos</option>
+                    <option value="problema">Problema no pagamento</option>
+                    <option value="acessibilidade">Acessibilidade / PNE</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Descreva sua solicitação aqui..." required></textarea>
+            </div>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CopaTickets - Todos os direitos reservados para a venda oficial.</p>
+    </footer>
+
+</body>
+</html>
