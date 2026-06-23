@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exposições - Museu do Cosmos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Museu do Cosmos</h1>
+        <p>Nossas Exposições Permanentes</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="exposicoes.html">Exposições</a></li>
+            <li><a href="foguetes.html">Foguetes</a></li>
+            <li><a href="ingressos.html">Ingressos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Pioneiros do Espaço</h2>
+        <p>Conheça as pessoas que mudaram a história da humanidade. Abaixo, alguns dos astronautas mais famosos da nossa galeria de heróis:</p>
+        
+        <!-- Lista 3: Lista ordenada -->
+        <ol>
+            <li>Yuri Gagarin - O primeiro humano no espaço (1961).</li>
+            <li>Neil Armstrong - O primeiro humano a pisar na Lua (1969).</li>
+            <li>Valentina Tereshkova - A primeira mulher no espaço (1963).</li>
+            <li>Marcos Pontes - O primeiro astronauta brasileiro (2006).</li>
+        </ol>
+
+        <h2>Cronograma de Visitas Guiadas</h2>
+        <!-- Tabela 1: Mesclagem de Células (rowspan) -->
+        <table>
+            <tr>
+                <th>Horário</th>
+                <th>Setor da Exposição</th>
+                <th>Guia Responsável</th>
+            </tr>
+            <tr>
+                <td>09:00 - 10:30</td>
+                <td>Sistema Solar e Planetas</td>
+                <td>Prof. Carlos</td>
+            </tr>
+            <tr>
+                <!-- Mesclagem de Linhas: O mesmo horário serve para duas salas -->
+                <td rowspan="2">11:00 - 12:30</td> 
+                <td>Evolução dos Trajes Espaciais</td>
+                <td>Dra. Mariana</td>
+            </tr>
+            <tr>
+                <td>Módulo Lunar e Pouso</td>
+                <td>Dra. Mariana</td>
+            </tr>
+            <tr>
+                <td>14:00 - 15:30</td>
+                <td>Observatório e Telescópios</td>
+                <td>Eng. Roberto</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
